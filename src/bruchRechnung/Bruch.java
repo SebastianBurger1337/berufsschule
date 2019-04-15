@@ -48,7 +48,7 @@ public class Bruch
 
     public void setNenner(int nenner)
     {
-        assert nenner != 0;
+        if (nenner == 0) { throw new ArithmeticException(); };
         this.nenner = nenner;
     }
 
@@ -64,7 +64,7 @@ public class Bruch
      */
     public Bruch mul(Bruch bruch)
     {
-        return new Bruch(this.zaehler *= bruch.getZaehler(), this.nenner *= bruch.getNenner());
+        return new Bruch(this.zaehler * bruch.getZaehler(), this.nenner * bruch.getNenner());
     }
 
     /**
@@ -74,18 +74,18 @@ public class Bruch
      */
     public Bruch div(Bruch bruch)
     {
-        return new Bruch(this.zaehler *= bruch.getNenner(), this.nenner *= bruch.getZaehler());
+        return new Bruch(this.zaehler * bruch.getNenner(), this.nenner * bruch.getZaehler());
     }
 
     /**
-     * Destroys Marco
+     * Marco
      */
     private void invertNegativeNumbers()
     {
-        if (zaehler >= 0 && nenner< 0)
+        if (zaehler >= 0 && nenner < 0)
         {
             nenner = nenner  * -1;
-            nenner = zaehler * -1;
+            zaehler = zaehler * -1;
         }
         else if (zaehler < 0 && nenner < 0)
         {
@@ -104,14 +104,16 @@ public class Bruch
     {
         Bruch simplifiedBruch = this.simplify();
         int simplifiedZaehler = simplifiedBruch.getZaehler();
-        int simplifiedNenner = simplifiedBruch.getNenner();
-        if (Math.abs(simplifiedZaehler)%nenner == 0)
+        int simplifiedNenner  = simplifiedBruch.getNenner();
+        if (Math.abs(simplifiedZaehler)%simplifiedNenner == 0)
         {
-            return String.valueOf(simplifiedZaehler/nenner);
+            return String.valueOf(simplifiedZaehler/simplifiedNenner);
         }
-        else if (Math.abs(simplifiedZaehler) > nenner)
+        else if (Math.abs(simplifiedZaehler) > simplifiedNenner)
         {
-            return String.format("%d %d/%d", simplifiedZaehler/simplifiedNenner, simplifiedZaehler-((simplifiedZaehler/simplifiedNenner)*simplifiedNenner), simplifiedNenner);
+            return String.format("%d %d/%d", simplifiedZaehler/simplifiedNenner,
+                    Math.abs(simplifiedZaehler-((simplifiedZaehler/simplifiedNenner)*simplifiedNenner)),
+                    simplifiedNenner);
         }
         return String.format("%d/%d", simplifiedZaehler, simplifiedNenner);
     }
@@ -146,8 +148,12 @@ public class Bruch
 
     public int getGreatestCommonDivisor(int a, int b)
     {
+        a = Math.abs(a);
+        b = Math.abs(b);
+
         // Get the bigger of the two numbers
         int smallerNumber = a < b ? a : b;
+
 
         // Iterate over all possibilities between the bigger number and
         for (int i = smallerNumber; i > 1; i--)

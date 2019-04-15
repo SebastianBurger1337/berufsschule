@@ -29,13 +29,17 @@ public class BruchTest
     public void testToString()
     {
         Bruch bruch = new Bruch(0,1);
-        assertEquals("0/1", bruch.toString());
+        assertEquals("0", bruch.toString());
         bruch = new Bruch(1,1);
         assertEquals("1", bruch.toString());
         bruch = new Bruch(3,2);
         assertEquals("1 1/2", bruch.toString());
         bruch = new Bruch(13, 4);
         assertEquals("3 1/4", bruch.toString());
+        bruch = new Bruch(-4, 4);
+        assertEquals("-1", bruch.toString());
+        bruch = new Bruch(5, -4);
+        assertEquals("-1 -1/4", bruch.toString());
     }
 
     @Test

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a876de8e-bd7d-432f-9041-59da4a5d92b3" name="Default Changelist" comment="" />
+    <list default="true" id="a876de8e-bd7d-432f-9041-59da4a5d92b3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bruchRechnung/Bruch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruchRechnung/Bruch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bruchRechnung/BruchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bruchRechnung/BruchMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bruchRechnung/BruchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bruchRechnung/BruchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bruchRechnung/BruchTestMarco.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/bruchRechnung/BruchTestMarco.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,48 +18,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bruchRechnung/Bruch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
-              <folding>
-                <element signature="e#4041#4042#0" expanded="true" />
-                <element signature="e#4112#4113#0" expanded="true" />
-                <element signature="e#4256#4257#0" expanded="true" />
-                <element signature="e#4325#4326#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/bruchRechnung/BruchTestMarco.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bruchRechnung/BruchMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/bruchRechnung/BruchTest.java">
+        <entry file="file://$PROJECT_DIR$/test/bruchRechnung/BruchTestMarco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+            <state relative-caret-position="162">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+                <element signature="e#1798#1799#0" expanded="true" />
+                <element signature="e#1837#1838#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/bruchRechnung/BruchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bruchRechnung/Bruch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="66" column="87" selection-start-line="66" selection-start-column="87" selection-end-line="66" selection-end-column="87" />
+              <folding>
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#1066#1067#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,14 +92,17 @@
       <find>system</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/HelloWorld/Main.java" />
+        <option value="$PROJECT_DIR$/test/bruchRechnung/BruchTest.java" />
         <option value="$PROJECT_DIR$/test/bruchRechnung/BruchTestMarco.java" />
         <option value="$PROJECT_DIR$/src/bruchRechnung/Bruch.java" />
         <option value="$PROJECT_DIR$/src/bruchRechnung/BruchMain.java" />
-        <option value="$PROJECT_DIR$/test/bruchRechnung/BruchTest.java" />
       </list>
     </option>
   </component>
@@ -98,7 +117,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -143,6 +161,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -153,7 +172,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555148839635" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555322960268" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -184,7 +203,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BruchTest">
+  <component name="RunManager" selected="JUnit.BruchTestMarco">
     <configuration name="BruchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bruchRechnung.BruchMain" />
       <module name="Berufsschule" />
@@ -198,36 +217,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BruchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BruchTestMarco" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Berufsschule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bruchRechnung.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="PACKAGE_NAME" value="bruchRechnung" />
-      <option name="MAIN_CLASS_NAME" value="bruchRechnung.BruchTest" />
+      <option name="MAIN_CLASS_NAME" value="BruchTestMarco" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BruchTestMarco.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BruchTestMarco.divTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Berufsschule" />
       <option name="PACKAGE_NAME" value="bruchRechnung" />
       <option name="MAIN_CLASS_NAME" value="BruchTestMarco" />
-      <option name="METHOD_NAME" value="addTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BruchTestMarco.leererBruchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Berufsschule" />
-      <option name="PACKAGE_NAME" value="bruchRechnung" />
-      <option name="MAIN_CLASS_NAME" value="BruchTestMarco" />
-      <option name="METHOD_NAME" value="leererBruchTest" />
+      <option name="METHOD_NAME" value="divTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -243,20 +246,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BruchTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Berufsschule" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bruchRechnung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bruchRechnung" />
+      <option name="MAIN_CLASS_NAME" value="bruchRechnung.BruchTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.BruchTestMarco.leererBruchTest" />
-      <item itemvalue="JUnit.BruchTestMarco.addTest" />
-      <item itemvalue="JUnit.BruchTestMarco.mulTest" />
       <item itemvalue="Application.BruchMain" />
-      <item itemvalue="JUnit.BruchTest" />
+      <item itemvalue="JUnit.BruchTest.testToString" />
+      <item itemvalue="JUnit.BruchTestMarco" />
+      <item itemvalue="JUnit.BruchTestMarco.mulTest" />
+      <item itemvalue="JUnit.BruchTestMarco.divTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BruchTest" />
-        <item itemvalue="Application.BruchMain" />
+        <item itemvalue="JUnit.BruchTestMarco" />
+        <item itemvalue="JUnit.BruchTestMarco.divTest" />
         <item itemvalue="JUnit.BruchTestMarco.mulTest" />
-        <item itemvalue="JUnit.BruchTestMarco.leererBruchTest" />
-        <item itemvalue="JUnit.BruchTestMarco.addTest" />
+        <item itemvalue="Application.BruchMain" />
+        <item itemvalue="JUnit.BruchTest.testToString" />
       </list>
     </recent_temporary>
   </component>
@@ -274,49 +293,50 @@
       <workItem from="1554708318949" duration="20172000" />
       <workItem from="1554968560192" duration="586000" />
       <workItem from="1554969177733" duration="4198000" />
+      <workItem from="1555316864466" duration="5132000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BruchTestMarco_mulTest - 2019.04.09 at 13h 46m 15s.xml">
-      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
+    <history-entry file="BruchTest_testToString - 2019.04.15 at 11h 24m 13s.xml">
+      <configuration name="BruchTest.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BruchTestMarco_mulTest - 2019.04.09 at 13h 48m 49s.xml">
-      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
+    <history-entry file="BruchTest_testToString - 2019.04.15 at 11h 24m 41s.xml">
+      <configuration name="BruchTest.testToString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BruchTestMarco_mulTest - 2019.04.09 at 13h 52m 39s.xml">
-      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
+    <history-entry file="BruchTestMarco - 2019.04.15 at 11h 25m 18s.xml">
+      <configuration name="BruchTestMarco" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BruchTestMarco_mulTest - 2019.04.09 at 13h 53m 41s.xml">
-      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
+    <history-entry file="BruchTestMarco - 2019.04.15 at 11h 30m 02s.xml">
+      <configuration name="BruchTestMarco" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BruchTestMarco_mulTest - 2019.04.09 at 13h 54m 55s.xml">
-      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
+    <history-entry file="BruchTestMarco - 2019.04.15 at 11h 30m 51s.xml">
+      <configuration name="BruchTestMarco" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BruchTestMarco_mulTest - 2019.04.09 at 13h 55m 39s.xml">
-      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
+    <history-entry file="BruchTestMarco - 2019.04.15 at 11h 31m 35s.xml">
+      <configuration name="BruchTestMarco" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BruchTestMarco_mulTest - 2019.04.09 at 13h 56m 03s.xml">
-      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
+    <history-entry file="BruchTestMarco - 2019.04.15 at 11h 56m 42s.xml">
+      <configuration name="BruchTestMarco" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BruchTestMarco_mulTest - 2019.04.09 at 13h 56m 46s.xml">
-      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
+    <history-entry file="BruchTestMarco - 2019.04.15 at 12h 00m 13s.xml">
+      <configuration name="BruchTestMarco" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BruchTestMarco_mulTest - 2019.04.09 at 13h 58m 17s.xml">
-      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
+    <history-entry file="BruchTestMarco - 2019.04.15 at 12h 01m 48s.xml">
+      <configuration name="BruchTestMarco" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BruchTest - 2019.04.13 at 11h 45m 05s.xml">
-      <configuration name="BruchTest" configurationId="JUnit" />
+    <history-entry file="BruchTestMarco_mulTest - 2019.04.15 at 12h 04m 30s.xml">
+      <configuration name="BruchTestMarco.mulTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28265000" />
+    <option name="totallyTimeSpent" value="33397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -349,6 +369,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bruchRechnung/Bruch.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/io/PrintStream.java">
@@ -456,25 +488,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/bruchRechnung/BruchTestMarco.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bruchRechnung/Bruch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="66" column="87" selection-start-line="66" selection-start-column="87" selection-end-line="66" selection-end-column="87" />
           <folding>
-            <element signature="e#4041#4042#0" expanded="true" />
-            <element signature="e#4112#4113#0" expanded="true" />
-            <element signature="e#4256#4257#0" expanded="true" />
-            <element signature="e#4325#4326#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -482,16 +508,32 @@
     <entry file="file://$PROJECT_DIR$/src/bruchRechnung/BruchMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/bruchRechnung/BruchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="67" column="8" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
+        <state relative-caret-position="1170">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bruchRechnung/BruchTestMarco.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
           </folding>
         </state>
       </provider>
