@@ -1,13 +1,17 @@
 package fraction;
 
 /**
- *
+ * @author Sebastian Burger
+ * A class representing a mathematical fraction.
  */
 public class Fraction
 {
     private int numerator;
     private int denominator;
 
+    /**
+     * Constructor for an empty Fraction.
+     */
     public Fraction()
     {
         numerator = 0;
@@ -15,17 +19,17 @@ public class Fraction
     }
 
     /**
-     * Constructor for the fraction.
+     * Constructor for the Fraction.
      *
-     * @param numerator Numerator
-     * @param denominator  Denominator
+     * @param numerator   Numerator
+     * @param denominator Denominator
      * @throws ArithmeticException In the case that the denominator equals 0.
      */
     public Fraction(int numerator, int denominator) throws ArithmeticException
     {
         if (denominator == 0)
         {
-            throw new ArithmeticException("Durch 0 teilen ist nicht möglich!");
+            throw new ArithmeticException("Division by 0 not possible!");
         }
         this.numerator = numerator;
         this.denominator = denominator;
@@ -53,11 +57,10 @@ public class Fraction
         {
             throw new ArithmeticException();
         }
-        ;
         this.denominator = denominator;
     }
 
-    public void anzeigen()
+    public void output()
     {
         System.out.println(toString());
     }
@@ -131,7 +134,7 @@ public class Fraction
      * @return The smallest common denominator of a and b.
      * TODO: Investigate potential that smaller number is divisor of bigger number
      */
-    public int getLowestCommonDenominator(int a, int b)
+    public static int getLowestCommonDenominator(int a, int b)
     {
         if (a == b)
         {
@@ -151,7 +154,14 @@ public class Fraction
         return a * b;
     }
 
-    public int getGreatestCommonDivisor(int a, int b)
+    /**
+     * Gets the greatest common divisor of two numbers.
+     *
+     * @param a
+     * @param b
+     * @return The greatest common divisor.
+     */
+    public static int getGreatestCommonDivisor(int a, int b)
     {
         a = Math.abs(a);
         b = Math.abs(b);
@@ -171,6 +181,12 @@ public class Fraction
         return 1;
     }
 
+    /**
+     * Expands a fraction by the provided expander.
+     *
+     * @param expander The expander.
+     * @return The new expanded fraction.
+     */
     public Fraction expand(int expander)
     {
         return new Fraction(numerator * expander, denominator * expander);
@@ -178,10 +194,18 @@ public class Fraction
 
     /**
      * @param reducer
-     * @return TODO: check for division resulting in a double
+     * @return TODO: check for division resulting in a double - experimental function.
      */
-    public Fraction reduce(int reducer)
+    private Fraction reduce(int reducer)
     {
+        if (reducer == 0)
+        {
+            return new Fraction(0, 0);
+        }
+        else if (reducer < 0)
+        {
+            return expand(reducer * -1);
+        }
         return new Fraction(numerator / reducer, denominator / reducer);
     }
 
@@ -192,8 +216,11 @@ public class Fraction
     }
 
     /**
-     * @param fraction
-     * @return TODO refactor
+     * TODO refactor.
+     * Adds a given fraction to the current fraction.
+     *
+     * @param fraction The fraction to be added.
+     * @return A new fraction representing the product of the addition.
      */
     public Fraction add(Fraction fraction)
     {
@@ -206,7 +233,8 @@ public class Fraction
     /**
      * TODO refactor
      * Subtracts the given fraction from the current fraction.
-     * @param fraction
+     *
+     * @param fraction The fraction to be subtracted.
      * @return
      */
     public Fraction sub(Fraction fraction)
@@ -218,9 +246,9 @@ public class Fraction
     }
 
     /**
-     * Checks whether
+     * Checks whether a given object is the same as the current fraction.
      *
-     * @param obj
+     * @param obj The object to be checked.
      */
     @Override
     public boolean equals(Object obj)
